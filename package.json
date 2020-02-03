@@ -1,0 +1,16 @@
+{
+  "name": "message-framer",
+  "version": "1.0.0",
+  "description": "recover null terminated strings from a stream of buffers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive ./test/*.js",
+    "dev": "nodemon test/test.js"
+  },
+  "author": "Chad Faragher",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
+}
