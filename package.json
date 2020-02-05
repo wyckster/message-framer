@@ -1,7 +1,7 @@
 {
   "name": "message-framer",
   "version": "1.0.0",
-  "description": "recover null terminated strings from a stream of buffers",
+  "description": "Recovers null terminated strings from a stream of bytes arriving in discrete buffers",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --recursive ./test/*.js",

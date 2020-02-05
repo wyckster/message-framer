@@ -1,0 +1,4 @@
+{signal: [
+  {name: 'incoming (bytes)', wave: 'x222222222x', data: ["H", "E", "L", "L", "O", "0x00", "W", "O", "R"]},
+  {name: 'outgoing (messages)', wave: 'x.....2x...', data: ["HELLO"]}
+], config: { hscale: 2 }}
