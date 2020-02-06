@@ -9,6 +9,7 @@
   },
   "author": "Chad Faragher",
   "license": "ISC",
+  "repository": "wyckster/message-framer",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.0.1"
