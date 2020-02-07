@@ -7,7 +7,7 @@
     "test": "mocha --recursive ./test/*.js",
     "dev": "nodemon test/test.js"
   },
-  "author": "Chad Faragher",
+  "author": "Chad Faragher <wyckster@hotmail.com>",
   "license": "ISC",
   "repository": "wyckster/message-framer",
   "devDependencies": {
