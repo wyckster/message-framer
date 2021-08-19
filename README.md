@@ -53,7 +53,7 @@ const net = require('net');
 var server = net.createServer(socket => {
   let mf = new MessageFramer();
   socket.on('data', buffer => mf.add(buffer));
-  mf = on('message', message => {
+  mf.on('message', message => {
     console.log(message);
   });
 });

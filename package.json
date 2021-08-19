@@ -1,6 +1,6 @@
 {
   "name": "message-framer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Recovers null terminated strings from a stream of bytes arriving in discrete buffers",
   "main": "lib/index.js",
   "scripts": {
