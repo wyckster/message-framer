@@ -10,7 +10,7 @@ Partial messages are buffered until their closing delimiter is processed.
 
 ## Usage
 
-```
+```js
 const MessageFramer = require('message-framer');
 
 let mf = new MessageFramer();
@@ -46,7 +46,7 @@ mf.add(buffer3);  // --> 'BRAVO' --> 'CHARLIE'
 
 ## Usage with a stream socket
 
-```
+```js
 const MessageFramer = require('message-framer');
 const net = require('net');
 
