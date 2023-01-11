@@ -12,6 +12,6 @@
   "repository": "wyckster/message-framer",
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^7.2.0"
+    "mocha": "^10.2.0"
   }
 }
